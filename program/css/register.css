@@ -1,0 +1,20 @@
+/*top_1头部*/
+#top_1{height:92px;border-bottom:2px solid #bc0e31;}
+.top_1{height:92px;}
+.top_1 a:first-child{float:left;margin-top:20px;}
+.top_1 a:last-child{float:right;margin-top:25px;}
+/*main主体*/
+.main{height:480px;overflow:hidden;}
+.main>a{float:left;margin:50px 0 0 150px;width:500px;height:400px;}
+.denglu{width:353px;height:326px;float:right;margin-top:33px;padding:25px;font-size:12px;border:1px solid #ddd;}
+.denglu h3{font-size:18px;line-height:18px;margin-bottom:34px;color:#574841;}
+.denglu form input:first-child{margin-bottom:20px;width:298px;height:32px;border:0;border:1px solid #968d88;color:#999;padding-left:6px;}
+.denglu form input:nth-child(2){margin-bottom:20px;width:298px;height:32px;border:0;border:1px solid #968d88;color:#999;padding-left:6px;}
+.denglu form input:nth-child(3){width:40px;margin-bottom:20px;}
+.denglu form>a{width:302px;height:42px;background:#d70000;border:0;color:#fff;font-size:18px;line-height:18px;margin-bottom:20px;display:block;text-align:center;line-height:42px;}
+.denglu>span{font-size:12px;color:#3472b2;margin-right:18px;}
+.denglu h4 p{color:#999;line-height:12px;margin:9px 0 13px 0;}
+.denglu h4 img{display:inline-block;width:95px;height:30px;float:left;margin-right:5px;}
+/*footer脚部*/
+#footer1_2{height:136px;border-top:1px solid #ccc;}
+.footer1_2{height:136px;}

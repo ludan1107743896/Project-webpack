@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>也买酒</title>
+</head>
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/commen.css">
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/move.js"></script>
+<script src="js/index.js"></script>
+<script src="js/ajax.js"></script>
+<script src="js/cookie2.js"></script>
+<script src="js/cookie.js"></script>
+<body>
+
+<!--top-->
+<div id="top">
+	<div class="top1 commen">
+		<p><span class="top1_user">9714034</span>位会员<a href="register.html" class="a1">登录</a>|<a  class="a2"href="zhuce.html">注册</a></p>
+		<h5 id="top1">
+			<ul>
+				<li><a href="#" >会员俱乐部</a></li>
+				<li><a href="#" >签到</a></li>
+				<li>
+					<a href="#" class="a3">我的账户</a>
+					<h3 id="Menu1">
+						<a href="gwc.html">我的订单</a>
+						<a href="zhuanti.html">我的存酒库</a>
+						<a href="#">我的优惠券</a>
+						<a href="gwc.html">我的收藏夹</a>
+					</h3>
+				</li>
+				<li>
+					<a href="#" class="a4">手机版</a>
+					<ul id="Menu2">
+						<li class="li1">App首单 <span>满100得100吧</span></li>
+						<li class="li2">
+							<img src="images/M1.jpg" alt="">
+							<p>
+								下载买酒客户端
+								<img class="img1" src="images/m2.png" alt="">
+								<img src="images/m3.png" alt="">
+							</p>
+						</li>
+						<li class="li3"><h5>了解更多客户端优惠！</h5></li>
+					</ul>
+				</li>
+				<li><a href="active.html" class="a6">红酒交易中心</a></li>
+				<li><a href="active.html" class="a6 a8">也买服务</a>
+					<div id="Menu3">
+						<a href="zhuanti.html">品酒会 </a> 
+						<a href="zhuanti.html">葡萄酒培训</a> 
+						<a href="zhuanti.html" class="a1">存酒库</a> 
+						<a href="zhuanti.html">礼品卡 </a> 
+						<a href="zhuanti.html" class="a1">积分商城 </a> 
+						<a href="zhuanti.html">酒窖 </a> 
+						<a href="zhuanti.html">《葡萄酒爱好者》</a> 
+						<a href="zhuanti.html">客服：4008208060</a>
+					</div>
+				</li>
+				<li><a href="#" class="a7">设置勿扰</a></li>
+			</ul>	
+		</h5>
+	</div>
+</div>
+<!--logo-->
+<div id="logo">
+	<div class="logo1 commen">
+		<h1><a href="#"><img src="images/logo.jpg" alt=""></a></h1>
+		<h3>
+			<span><a href="#"><img src="images/logo1.jpg" alt=""></a></span>
+			<span><a href="#"><img src="images/logo2.jpg" alt=""></a></span>
+		</h3>
+		<div class="inpt">
+			<form action="">
+				<p>
+					<input type="text"  class="txt"  value="输入您要查找的商品名">
+					<input type="submit" class="btn" value="搜索">
+				</p>
+			</form>
+			<h6>
+				<a href="active.html">薄若莱2016新酒店预订</a>
+				<a href="active.html">婚庆整箱</a>
+				<a href="active.html">名庄酒</a>
+				<a href="active.html">特色陈年老酒</a>
+				<a href="active.html">也买酒学院</a>
+			</h6>
+		</div>
+	</div>
+</div>
+<!--nav-->
+<div id="nav">
+	<div class="nav commen">
+		<h5>选酒中心</h5>
+		<ul class="ul1">
+			<li><a class="page" href="index.html">首页</a></li>
+			<li><a href="xiangqing.html">详情页</a></li>
+			<li><a href="zhuanti.html">专题页</a></li>
+			<li><a href="active.html">活动页</a></li>
+			<li><a href="list.html">列表页</a></li>
+			<li><a href="list.html">列表页</a></li>
+			<li><a href="#">国酒馆</a><img class="img1" src="images/tu1.jpg" /></li>
+		</ul>
+		<div id="nav2">
+			<ul class="ul2">
+
+			</ul>
+		</div>
+		<div id="nav3">
+			<h4><img src="images/tu3.jpg" alt=""></h4>
+			<h3>会员中心</h3>
+			<h6><p>登陆</p><p>注册</p></h6>
+			<ul class="ul3">
+				<li>我的订单</li>
+				<li>我的优惠券</li>
+				<li>我的积分</li>
+				<li>我的存酒</li>
+				<li>会员升级</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!--banner-->
+<div id="banner">
+	<div class="banner1" id="banner1">
+		<ul></ul>
+		<p>
+			<span>1</span>
+			<span>2</span>
+			<span>3</span>
+			<span>4</span>
+			<span>5</span>
+			<span>6</span>
+			<span>7</span>
+			<span>8</span>
+			<span>9</span>
+			<span>10</span>
+		</p>
+	</div>
+</div>
+<!--purch-->
+<div class="purch commen">
+	<div class="Pleft">
+		<div class="Pleft1" id="Pleft1">
+			<img src="images/purch1.jpg" alt="" style="display:none;">
+			<img src="images/purch2.jpg" alt="">
+		</div>
+		<p id="p"><span class="span2">+</span><span class="span1">-</span></p>
+		<div class="Pleft2" id="Pleft2">
+			<h4>
+				<a class="a1" href="#">促销活动</a>
+				<a href="#">最新公告</a>
+				<a href="#">媒体聚焦</a>
+			</h4>
+			<ul>
+				<li>
+					<h6>也买酒下线新店开业满200减</h6>
+					<h6>新春第二波满199送诺信蛋糕券</h6>
+					<h6>企业采购专场满额返实物礼品卡</h6>
+					<h6>尖叫系列，汇聚全球顶级佳酿。</h6>
+				</li>
+				<li >
+					<h6>因物业停电10月5日客服暂停服务</h6>
+					<h6>2016年国庆节配送安排通知</h6>
+					<h6>2016中秋节配送&乐乎通知</h6>
+					<h6>因盘点各仓8月28日暂停配发货</h6>
+				</li>
+				<li class="active">
+					<h6>James Sucking TOP 5 picks 七</h6>
+					<h6>2014您属于波尔多左岸的一</h6>
+					<h6>幽暗不容小觑，600款2014</h6>
+					<h6>2014属于左岸的一年，250多款</h6>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="Pright1">
+		<ul class="Pright" id="Pright">
+			<li class="active">
+				<h3>人气抢购</h3>
+				<p>百元超值特价</p>
+			</li>
+			<li>
+				<h3>人气抢购</h3>
+				<p>百元超值特价</p>
+			</li>
+			<li>
+				<h3>人气抢购</h3>
+				<p>百元超值特价</p>
+			</li>
+			<li>
+				<h3>人气抢购</h3>
+				<p>百元超值特价</p>
+			</li>
+			<li>
+				<h3>人气抢购</h3>
+				<p>百元超值特价</p>			
+			</li>
+		</ul>
+		<div id="box">
+			<div class="box_1" id="box_1">
+				<ul class="box_ul1"></ul>
+				<ul class="box_ul2"></ul>
+				<ul class="box_ul3"></ul>
+				<ul class="box_ul4"></ul>
+				<ul class="box_ul5"></ul>		
+			</div>
+		</div>
+	</div>
+</div>
+<!--love-->
+<div class="love commen">
+	<div class="com">
+		<h3>猜你喜欢<span>根据您的喜好精心推荐！</span></h3>
+		<h6>没有合适的？换一批</h6>
+	</div>
+	<div class="love2 commen">
+		<div class="love2-left">
+			<h4>专属推荐</h4>
+			<p><img src="images/img1.jpg" alt="">实惠控</p>
+			<p><img src="images/img2.jpg" alt="">实惠控</p>
+			<p><img src="images/img3.jpg" alt="">实惠控</p>
+			<p><img src="images/img4.jpg" alt="">实惠控</p>
+			<p><img src="images/img5.jpg" alt="">实惠控</p>
+			<p><img src="images/img6.jpg" alt="">实惠控</p>
+			<p><img src="images/img7.jpg" alt="">实惠控</p>
+			<p><img src="images/img8.jpg" alt="">实惠控</p>
+		</div>
+		<div class="love2-right" id="love2_right">
+		</div>
+	</div>
+</div>
+<!--reputation-->
+<div class="reputation commen">
+	<div id="reputation1">
+		<div class="com">
+			<h3>刚刚被好评过的</h3>
+		</div>
+		<div id="Hot">
+			<ul></ul>
+			<p>
+				<span></span>
+				<span></span>
+				<span></span>
+			</p>
+		</div>
+	</div>
+	<div id="reputation2">
+		<div class="com">
+			<h3>刚刚被购买过的商品</h3>
+		</div>
+		<div id="buy_2"></div>
+	</div>
+</div>
+<!--found-->
+<div class="found commen">
+	<div class="com">
+		<h3>趣味新发现<span>品质追求，更有意思的买醉人生</span></h3>
+	</div>
+	<div class="bottom">
+		<div class="bottom1" >
+			<h3 class="com_h3"><p>必买排行榜</p></h3>
+			<div id="bottom1"></div>
+			<p><img src="images/bottom3.jpg" alt=""></p>
+			<div id="found_ul"></div>			
+		</div>
+		<div class="bottom2">
+			<h3 class="com_h3"><p>必买排行榜</p></h3>
+			<div id="bottom2"></div>
+		</div>
+		<div class="bottom3">
+			<h3 class="com_h3"><p>必买排行榜</p></h3>
+			<dl class="dl1">
+				<dt><img src="images/dl1.jpg" alt=""></dt>
+				<dd>
+					<p>kevin龙云</p>
+					<p>金牌买手</p>
+				</dd>
+			</dl>
+			<div id="bottom3"></div>
+			<ul>
+				<li class="li1">推荐理由</li>
+				<li class="li2">
+					银土，加州纳帕鹿跃取得迪士尼家族酒庄，好评无数、92年在世界百大中排名第三，旗舰就SOLO获得纳帕起名的酒评价的著作《世界谱图皮酒》的强力推荐。
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!--tese-->
+<div class="commen tese">
+	<div class="com">
+	   <h3>专业特色专题<span>品质追求，更有意思的买醉人生</span></h3>
+	</div>
+	<dl id="tese_1"></dl>
+</div>
+<!--product-->
+<div class="commen product">
+	<div class="com">
+	   <h3>品牌汇</h3>
+	   <h6> >> </h6>
+	</div>
+	<ul class="listBox" id="listBox"></ul>
+	<div class="listBox2" id="listBox2">
+		<ul></ul>
+	</div>
+</div>
+<!--Condition-->
+<div class="commen Condition">
+	<div class="Condition_1">
+		<div class="com">
+	   		<h3>酒友品鉴</h3>
+	   		<h6>  < 1/11> </h6>
+		</div>
+		<div class="Con_1" id="Con_1"></div>
+	</div>
+	<div class="Condition_2">
+		<h3>精品推荐</h3>
+		<img src="images/con_6.jpg" alt="">
+	</div>
+</div>
+<!--Improt-->
+<div class="commen Improt">
+	<div class="com Improt1">
+   		<h3>进口葡萄酒</h3>
+   		<h6>全部葡萄酒</h6>
+   		<ul>
+   			<li>红葡萄酒</li>
+   			<li>白葡萄酒</li>
+   			<li>桃红葡萄酒</li>
+   			<li>起泡酒</li>
+   			<li>香槟</li>
+   			<li class="li1">赤霞珠</li>
+   		</ul>
+	</div>
+	<div class="Improt2 commen">
+		<p id="com_p1" class="com_p1"></p>
+		<div class="Improt2_1" >
+			<ul id="Improt2_1" class="Improt_21"></ul>
+			<h6 id="Improt2_h6"><span>1</span><span>2</span><span>3</span></h6>
+		</div>
+		<h3>
+			<img src="images/2016.jpg" alt="">
+			<img src="images/20162.jpg" alt="">
+		</h3>
+	</div>
+	<div class="Improt3 commen">
+		<div class="Improt3_1">
+			<h4 class="Improt3_1_h4">
+				<span>性价比之选</span>
+				<em>更多>></em>
+			</h4>
+			<div class="Im_ul" id="Im_ul"></div>
+			<h4 class="Improt3_1_h4">
+				<span>新品上市</span>
+				<em>更多>></em>
+			</h4>
+			<div id="Im_ul_1"></div>
+		</div>
+		<div class="Improt3_2 " id="Improt3_2">
+			<h3></h3>
+			<div id="Improt3_right"></div>
+			<div class="knsd_1" >
+				<ul id="knsd_1"></ul>
+			</div>
+		</div>
+	</div>
+</div>
+<!--foregin-->
+<div class="Foregin commen">
+	<div class="com Improt1">
+   		<h3>洋酒、烈酒</h3>
+   		<h6>全部洋酒</h6>
+   		<ul>
+   			<li>伏特加</li>
+   			<li>朗姆酒</li>
+   			<li>威士忌</li>
+   			<li>白兰地</li>
+   			<li>香槟</li>
+   			<li>龙舌兰</li>
+   			<li>禁酒</li>
+   			<li class="li1">干邑</li>
+   		</ul>
+	</div>
+	<div class="Foregin_1">
+		<div class="Foregin_1_left" id="Foregin_1_left">
+		</div>
+		<div class="Foregin_1_right">
+			<ul id="Foregin_1_right"> </ul>
+			<p class="For_num" id="For_num">
+				<span>1</span>
+				<span>2</span>
+				<span>3</span>
+			</p>
+		</div>
+	</div>
+	<div class="Foregin_2" id="Foregin_2"></div>
+	<div class="Foregin_3">
+		<dl id="knsdm">
+			<dt>
+				<em>1</em>
+				<a href="#"><img src="images/im3_dl3.jpg" alt=""></a>
+			</dt>
+			<dd>
+				<h4>火地岛经典赤霞珠干红葡萄酒</h4>
+				<h5>售出 108133</h5>
+				<h6>￥65.0</h6>
+			</dd>
+		</dl>
+		<dl id="knsdm">
+			<dt>
+				<em>2</em>
+				<a href="#"><img src="images/im3_dl3.jpg" alt=""></a>
+			</dt>
+			<dd>
+				<h4>火地岛经典赤霞珠干红葡萄酒</h4>
+				<h5>售出 108133</h5>
+				<h6>￥65.0</h6>
+			</dd>
+		</dl>
+		<ul id="knsd_1_FF"></ul>
+	</div>
+</div>
+<!--Improt-->
+<div class="commen Improt">
+	<div class="com Improt1">
+   		<h3>进口葡萄酒</h3>
+   		<h6>全部葡萄酒</h6>
+   		<ul>
+   			<li>红葡萄酒</li>
+   			<li>白葡萄酒</li>
+   			<li>桃红葡萄酒</li>
+   			<li>起泡酒</li>
+   			<li>香槟</li>
+   			<li class="li1">赤霞珠</li>
+   		</ul>
+	</div>
+	<div class="Improt2 commen">
+		<p id="com_p1" class="com_p1_F"></p>
+		<div class="Improt2_1" id="Improt2_1" >
+			<ul id="Improt2_1_F" class="Improt_21_F"></ul>
+			<h6 id="Improt2_h6_F"><span>1</span><span>2</span><span>3</span></h6>
+		</div>
+		<h3>
+			<img src="images/2016.jpg" alt="">
+			<img src="images/20162.jpg" alt="">
+		</h3>
+	</div>
+	<div class="Improt3 commen">
+		<div class="Improt3_1">
+			<h4 class="Improt3_1_h4">
+				<span>性价比之选</span>
+				<em>更多>></em>
+			</h4>
+			<div class="Im_ul" id="Im_ul_F"></div>
+			<h4 class="Improt3_1_h4">
+				<span>新品上市</span>
+				<em>更多>></em>
+			</h4>
+			<div id="Im_ul_1_F">
+				
+			</div>
+		</div>
+		<div class="Improt3_2 " id="Improt3_2">
+			<h3></h3>
+			<div id="Improt3_right_F"></div>
+			<div class="knsd_1" >
+				<ul id="knsd_1_F"></ul>
+			</div>
+		</div>
+	</div>
+</div>
+<!--bottom-->
+<div id="Bottom">
+	<div class="commen bottom_1">
+		<ul class="commen">
+			<li><a href="#"><img src="images/bottom_1.jpg" alt=""></a></li>
+			<li><a href="#"><img src="images/bottom_2.jpg" alt=""></a></li>
+			<li><a href="#"><img src="images/bottom_3.jpg" alt=""></a></li>
+			<li><a href="#"><img src="images/bottom_4.jpg" alt=""></a></li>
+			<li><a href="#"><img src="images/bottom_5.jpg" alt=""></a></li>
+			<li><a href="#"><img src="images/bottom_6.jpg" alt=""></a></li>
+		</ul>
+		<div class="bottom_2">
+			<ul>
+				<li><a href="#">购物指南</a></li>
+				<li><a href="#">账户注册</a></li>
+				<li><a href="#">购物流程</a></li>
+				<li><a href="#">积分制度</a></li>
+				<li><a href="#">礼品卡</a></li>
+				<li><a href="#">会员权益</a></li>
+				<li><a href="#">常见问题</a></li>
+			</ul>
+			<ul>
+				<li><a href="#">支付帮助</a></li>
+				<li><a href="#">在线支付</a></li>
+				<li><a href="#">银行转帐</a></li>
+				<li><a href="#">发票制度</a></li>
+				<li><a href="#">货到付款</a></li>
+			</ul>
+			<ul>
+				<li><a href="#">专业特色</a></li>
+				<li><a href="#">在酒库</a></li>
+				<li><a href="#">酒类交易中心</a></li>
+				<li><a href="#">全国门店分布</a></li>
+				<li><a href="#">香港免税</a></li>
+				<li><a href="#">香港免税</a></li>
+				<li><a href="#">酒窖</a></li>
+			</ul>
+			<ul>
+				<li><a href="#">物流配送</a></li>
+				<li><a href="#">150元免运费</a></li>
+				<li><a href="#">配送范围</a></li>
+				<li><a href="#">慢就返</a></li>
+			</ul>
+			<ul>
+				<li><a href="#">关于我们</a></li>
+				<li><a href="#">关于也买酒</a></li>
+				<li><a href="#">联系我们</a></li>
+				<li><a href="#">媒体聚焦</a></li>
+				<li><a href="#">隐私声明</a></li>
+				<li><a href="#">40082011</a></li>
+			</ul>
+			<ul>
+				<li><a href="#">招商合作</a></li>
+				<li><a href="#">经销商招募</a></li>
+				<li><a href="#">连锁店招募</a></li>
+				<li><a href="#">也买联盟</a></li>
+				<li><a href="#">企业采购</a></li>
+			</ul>
+		</div>
+		<div class="bottom_3">
+			<h3>也买酒APP下载</h3>
+			<p>下载也买酒APP 每月18手机购</p>
+			<h6>酒节精彩不错过</h6>
+			<h3>也买酒官方微信</h3>
+			<p>光柱微信、劲爆优惠出售可爆！</p>
+			<img src="images/ewm1.jpg" alt="">
+		</div>
+		<div class="bottom_4">
+			<p>
+				<a href="#"><img src="images/app.jpg" alt=""></a>
+				<a href="#"><img src="images/and.jpg" alt=""></a>
+			</p>
+			<h4>
+				<a href="#"><img src="images/ewm1.jpg" alt=""></a>
+				<a href="#"><img src="images/app2.jpg" alt=""></a>
+			</h4>
+			<h5>
+				<a href="#"><img src="images/xinl.jpg" alt=""></a>
+				<p>
+					<a href="#">新浪微博</a>
+					<a href="#">立即关注</a>
+				</p>
+				<span>也买酒官方网站</span>
+			</h5>
+		</div>
+	</div>
+</div>
+<!--footer1-->
+<div id="footer1">
+	<div class="footer1_1 commen">
+		<ul>
+			<li><a href="#">关于也买酒</a></li>
+			<li><a href="#">联系我们</a></li>
+			<li><a href="#">媒体聚焦</a></li>
+			<li><a href="#">诚招英才</a></li>
+			<li><a href="#">隐私声明</a></li>
+		</ul>
+	</div>
+</div>
+<!--footer2-->
+<div class="footer1_2 commen">
+	<p id="footer1_1p">
+		<a href="#">友情链接：</a>
+		<a href="#">商酒资讯网</a>
+		<a href="#">959招商网</a>
+		<a href="#">贡酒</a>
+		<a href="#">电子商务</a>
+		<a href="#">123美食网</a>
+		<a href="#">烧酒网</a>
+		<a href="#">57团购网</a>
+		<a href="#">中国糖酒网</a>
+		<a href="#">中国品牌网</a>
+		<a href="#">搜狐焦点烟台站</a>
+		<a href="#">妙客网</a>
+		<a href="#">中国糖酒门</a>
+		<a href="#">&nbsp;&nbsp;&nbsp;</a>
+	</p>
+	<p id="footer1_2p">
+		<a href="#">友情链接：</a>
+		<a href="#">商酒资讯网</a>
+		<a href="#">959招商网</a>
+		<a href="#">贡酒</a>
+		<a href="#">电子商务</a>
+		<a href="#">123美食网</a>
+		<a href="#">烧酒网</a>
+		<a href="#">57团购网</a>
+		<a href="#">中国糖酒网</a>
+		<a href="#">中国品牌网</a>
+		<a href="#">搜狐焦点烟台站</a>
+	</p>
+	<h4>
+		<a href="#"><img src="images/footer_1.jpg" alt="">消费者最喜爱的网站</a>
+		<a href="#"><img src="images/footer_2.jpg" alt="">仅限18周岁以上人士购买</a>
+		<a href="#"><img src="images/footer_3.jpg" alt="">网络社会征信</a>
+		<a href="#"><img src="images/footer_4.jpg" alt="">上海工商</a>
+		<a href="#">精工安备11121212121212</a>
+	</h4>
+	<h5>Copyright 2006-2015 也买酒18 yesmywin.com版权所有 | 沪ICP备15036938号</h5>
+	<h6><img src="images/footer_5.jpg" alt=""><img src="images/footer_6.jpg" alt=""></h6>	
+</div>
+<!--外层黑框-->
+<div class="w_body">
+	<div class="w_body1">
+		<p><img class="w_img" src="images/w_body1.jpg" alt=""></p>
+		<div class="w_img2">
+			<img src="images/w_body2.png" alt="" >
+		</div>
+	</div>
+</div>
+<!--右侧小图-->
+<div class="img_w">
+	<a href="index.html"><img src="images/w_img.png" alt=""></a>
+</div>
+</body>
+</html>

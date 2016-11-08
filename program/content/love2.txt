@@ -1,0 +1,8 @@
+[
+	{"img1":"love1.jpg","name":"博林干红葡萄酒","name2":"LES HAUTS DE BOLLIN","city":"产地：英国","variety":"品种：50%西拉/设拉子,35%葛海娜","remark":"好评度：88%","money":"￥79.0"},
+	{"img1":"love2.jpg","name":"博林干红葡萄酒","name2":"LES HAUTS DE BOLLIN","city":"产地：英国","variety":"品种：50%西拉/设拉子,35%葛海娜","remark":"好评度：88%","money":"￥79.0"},
+	{"img1":"love3.jpg","name":"博林干红葡萄酒","name2":"LES HAUTS DE BOLLIN","city":"产地：英国","variety":"品种：50%西拉/设拉子,35%葛海娜","remark":"好评度：88%","money":"￥79.0"},
+	{"img1":"love4.jpg","name":"博林干红葡萄酒","name2":"LES HAUTS DE BOLLIN","city":"产地：英国","variety":"品种：50%西拉/设拉子,35%葛海娜","remark":"好评度：88%","money":"￥79.0"},
+	{"img1":"love5.jpg","name":"博林干红葡萄酒","name2":"LES HAUTS DE BOLLIN","city":"产地：英国","variety":"品种：50%西拉/设拉子,35%葛海娜","remark":"好评度：88%","money":"￥79.0"},
+	{"img1":"love6.jpg","name":"博林干红葡萄酒","name2":"LES HAUTS DE BOLLIN","city":"产地：英国","variety":"品种：50%西拉/设拉子,35%葛海娜","remark":"好评度：88%","money":"￥79.0"}
+]
